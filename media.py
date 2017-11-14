@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """Simple Movie Class
     Attributes:
@@ -16,4 +17,3 @@ class Movie():
     def show_trailer(self):
         """Opens web browser at trailer url to display the movie trailer"""
         webbrowser.open(self.trailer)
-        
